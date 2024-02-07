@@ -12,3 +12,10 @@ function navigateTo(page) {
 
 // Initial navigation to the home page
 navigateTo('home');
+
+function page1() {
+    window.location.href = 'index.html';
+  }
+  function page2() {
+    window.location.href = 'reg.html';
+  }

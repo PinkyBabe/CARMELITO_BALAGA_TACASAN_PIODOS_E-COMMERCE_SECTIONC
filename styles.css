@@ -15,7 +15,7 @@ form {
   
   /* Set a style for all buttons */
   button {
-    background-color: #04AA6D;
+    background-color: #0c0fbb;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -33,16 +33,16 @@ form {
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #f44336;
+    background-color: #18cc45;
   }
   
   /* Center the avatar image inside this container */
   .imgcontainer {
     width: 500px;
     height: auto;
-    text-align: center;
-    margin: 24px 0 24px 0;
-    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Avatar image */
@@ -72,3 +72,18 @@ form {
       width: 100%;
     }
   }
+
+  .jumbotron {
+    margin-bottom: 0;
+  }
+ 
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+img {
+    height: 200px; /* Adjust the height to your desired size */
+    width: auto; /* This will maintain the aspect ratio */
+}

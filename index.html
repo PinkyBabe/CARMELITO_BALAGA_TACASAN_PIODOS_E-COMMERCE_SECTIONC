@@ -4,46 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HIPAK</title>
-
+  <title>Hipak</title>
+  <link rel="icon" href="wew.jpg" type="image/x-icon">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
-    <form>
+
+  <form action="home.html">
+    <center>
       <div class="imgcontainer">
         <br><br>
-        <img src="wew.webp" alt="Avatar" class="avatar">
+        <img src="wew.jpg" alt="Avatar" class="avatar">
       </div>
+    </center>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
 
-      <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+      <!-- Corrected the function name to page2() -->
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
 
-        <!-- Corrected the function name to page2() -->
-        <button type="submit" onclick="page2()">Login</button>
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-      </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn" onclick="page2()">Register</button>
 
-      <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Register</button>
-
-      </div>
-    </form>
+    </div>
+  </form>
 
 </body>
-<script>
-  function page1() {
-    window.location.href = 'index.html';
-  }
-  function page2() {
-    window.location.href = 'home.html';
-  }
-</script>
+<script src="app.js"></script>
 </html>
