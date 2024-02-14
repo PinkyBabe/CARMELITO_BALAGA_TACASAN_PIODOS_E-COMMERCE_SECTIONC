@@ -137,3 +137,11 @@ footer {
 .navbar{
     text-align: left;
 }
+
+.product-image {
+    width: 100%;
+    height: auto;
+  }
+  img{
+    border-radius: 10px;
+}

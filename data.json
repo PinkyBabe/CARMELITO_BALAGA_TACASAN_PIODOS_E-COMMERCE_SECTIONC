@@ -1,0 +1,71 @@
+[
+    {
+      "category": "home",
+      "products": [
+        {
+          "product_name": "Voopo drag x",
+          "img": "vape1.jpg",
+          "product_price": "50 mobiles and get a gift card",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Voopo drag s",
+          "img": "vape3.jpg",
+          "product_price": "50 mobiles and get a gift card",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Voopo pod",
+          "img": "vape7.webp",
+          "product_price": "50 mobiles and get a gift card",
+          "product_dateAdded": "Date Added Placeholder"
+        }
+      ]
+    },
+    {
+      "category": "vapesets",
+      "products": [
+        {
+          "product_name": "Voopo drag x",
+          "img": "vape1.jpg",
+          "product_price": "6,100",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Voopo drag s",
+          "img": "vape3.jpg",
+          "product_price": "5,400",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Cigpet capo",
+          "img": "vape4.jpg",
+          "product_price": "4,000",
+          "product_dateAdded": "Date Added Placeholder"
+        }
+      ]
+    },
+    {
+      "category": "pods",
+      "products": [
+        {
+          "product_name": "Relx",
+          "img": "vape5.webp",
+          "product_price": "2,600",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Smok",
+          "img": "vape6.webp",
+          "product_price": "1,400",
+          "product_dateAdded": "Date Added Placeholder"
+        },
+        {
+          "product_name": "Voopo pod",
+          "img": "vape7.webp",
+          "product_price": "2,500",
+          "product_dateAdded": "Date Added Placeholder"
+        }
+      ]
+    }
+  ]
