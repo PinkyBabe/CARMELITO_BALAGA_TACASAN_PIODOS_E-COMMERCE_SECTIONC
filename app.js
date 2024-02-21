@@ -13,14 +13,15 @@ fetch('data.json')
 
         // Generate HTML for each product
         productItem.innerHTML = `
-          <div class="card">
+          <div class="immortal">
             <img src="${product.img}" class="card-img-top product-image" alt="${product.product_name}">
             <div class="card-body">
               <h5 class="card-title">${product.product_name}</h5>
               <p class="card-text">Price: $${product.product_price}</p>
               <p class="card-text">Date Added: ${product.product_dateAdded}</p>
               <button class="btn btn-primary" onclick="addToCart('${product.product_name}')">Add to Cart</button>
-              <span>0</span> Clicks
+              <span id="clickCount${product.product_name}">0</span> Clicks
+              <br><br>
             </div>
           </div>
         `;
