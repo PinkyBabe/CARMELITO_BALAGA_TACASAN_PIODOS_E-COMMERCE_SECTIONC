@@ -28,6 +28,7 @@ body {
     margin:  auto;
     text-align: center;
     background-color: aliceblue;
+    border-radius: 7px;
 }
 
 header {
